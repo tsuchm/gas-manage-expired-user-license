@@ -11,7 +11,7 @@ Google Workspace では，2021年時点では，[ある組織部門に属する�
  * Admin SDK API service
  * Enterprise License Manager API service settings
 
-(3) unassignLicensesForExpiredUsers() を定期的に実行するよう[トリガーを設定する](https://developers.google.com/apps-script/guides/triggers/installable)．
+(3) unassignLicensesForExpiredUsers() を定期的に実行するよう[トリガーを設定する](https://developers.google.com/apps-script/guides/triggers/installable)．ライセンス割当を解除するユーザの判定は，unassignLicensesForExpiredUsers() にハードコードされているので，適宜に変更を要する．
 
 ## License
 
